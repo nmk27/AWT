@@ -1,6 +1,7 @@
 <!-- Connector to the sql database -->
 <?php require 'config.php';?>
 
+<!-- Normal HTML5 syntax -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,4 +56,5 @@
 
     </div>
 
+    <!-- Connector to the footer file because this footer will be used everywhere -->
     <?php include 'footer.php'?>
