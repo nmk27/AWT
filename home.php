@@ -40,13 +40,13 @@
 
         <div class="free">
             <h2>Favourite sports</h2>
-            <a href="https://en.wikipedia.org/wiki/Esports">
+            <a href="https://en.wikipedia.org/wiki/Esports" target="_blank">
                 <img src="images/sports1.jpg" alt="esports">
             </a>
-            <a href="https://en.wikipedia.org/wiki/UEFA_Champions_League">
+            <a href="https://en.wikipedia.org/wiki/UEFA_Champions_League" target="_blank">
                 <img src="images/sports2.jpg" alt="ucl">
             </a>
-            <a href="https://en.wikipedia.org/wiki/Concert">
+            <a href="https://en.wikipedia.org/wiki/Concert" target="_blank">
                 <img src="images/sports3.jpg" alt="liveperf">
             </a>
         </div>
