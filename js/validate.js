@@ -1,2 +1,2 @@
-let username = document.getElementById("username").value;
-console.log(username)
+let username = document.getElementById("regno").value;
+console.log(username);
