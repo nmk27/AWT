@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
+
     <title>Login</title>
 </head>
 
@@ -13,14 +14,13 @@
     <div class="loginbox">
         <img src="images/user.png" alt="user" class="avatar">
         <h1>Login Here</h1>
-        <form>
+        <form action="#" method="get">
             <p>Registration Number</p>
-            <input type="text" id="regno" required>
+            <input type="number" id="regno" required>
             <p>Password</p>
             <input type="password" id="password" required>
-            <input type="submit" name="" value="Login">
+            <input type="submit" name="" value="Login" onclick="validate()">
         </form>
-
     </div>
     <script src="js/validate.js"></script>
 </body>
