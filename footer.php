@@ -7,8 +7,9 @@
 <style>
     .footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         background-color: #e76f51;
+        padding: 1em 1em;
     }
 </style>
 
