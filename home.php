@@ -9,7 +9,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/home.css">
     <title>AWT Assignment</title>
 </head>
@@ -39,8 +38,8 @@
 
         <div class="line"></div>
 
+        <h2>Favourite sports</h2>
         <div class="free">
-            <h2>Favourite sports</h2>
             <a href="https://en.wikipedia.org/wiki/Esports" target="_blank">
                 <img src="images/sports1.jpg" alt="esports">
             </a>
@@ -49,6 +48,9 @@
             </a>
             <a href="https://en.wikipedia.org/wiki/Concert" target="_blank">
                 <img src="images/sports3.jpg" alt="liveperf">
+            </a>
+            <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki" target="_blank">
+                <img src="images/onepiece.jfif" alt="onepiece">
             </a>
         </div>
 

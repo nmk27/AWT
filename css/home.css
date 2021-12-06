@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;400;600&family=Nunito+Sans:ital,wght@0,200;1,400;1,700&family=Nunito:ital,wght@0,400;0,700;1,200&display=swap');
 
+body{
+    background-image: url("https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     margin:5em 25%;
-    background-color: rgba(255, 255, 255, 0.712);
+    background-color: rgba(255, 255, 255, 0.116);
     border-radius: 30px;
     justify-content: center;
     align-items: center;
     font-family: 'Nunito',sans-serif;
+    color:#fff;
+    text-transform: uppercase;
 }
 
 h1{
@@ -18,7 +25,7 @@ h1{
 }
 
 .line{
-    border:1px solid #264653;
+    border:1px solid #ffffff;
     width:70%;
     margin:2em 0;
 }
@@ -63,3 +70,29 @@ img{
     cursor: pointer;
 }
 
+.free{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.free a{
+    text-decoration: none;
+}
+
+.free img{
+    margin: 1em 2em;
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: border-radius 0.25s ease-in;
+}
+
+.free img:hover{
+    border-radius: 10%;
+}
