@@ -29,7 +29,7 @@
         <div class="line"></div>
 
         <div class="buttons">
-            <a href="#">data entry</a>
+            <a href="dataentry.php">data entry</a>
             <a href="#">data retrieval</a>
         </div>
 
