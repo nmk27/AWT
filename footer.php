@@ -7,9 +7,12 @@
 <style>
     .footer {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         background-color: #e76f51;
-        padding: 1em 1em;
+        padding: 1em 0;
+    }
+    span{
+        font-size: 1.25em;
     }
 </style>
 
