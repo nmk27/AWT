@@ -1,6 +1,3 @@
-<!-- Connector to the sql database -->
-<?php require 'config.php';?>
-
 <!-- Normal HTML5 syntax -->
 <!DOCTYPE html>
 <html lang="en">
