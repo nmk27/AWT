@@ -52,15 +52,15 @@
 
         <form action="dataentry.php" method="post">
             <span>Student reg. no.</span>
-            <input type="number" name="regno" id="regno">
+            <input type="number" name="regno" id="regno" autocomplete="off" required>
             <span>Student name</span>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" autocomplete="off" required>
             <span>Marks in subject 1</span>
-            <input type="number" name="marks1" id="marks1">
+            <input type="number" name="marks1" id="marks1" autocomplete="off" required>
             <span>Marks in subject 2</span>
-            <input type="number" name="marks2" id="marks2">
+            <input type="number" name="marks2" id="marks2" autocomplete="off" required>
             <span>Marks in subject 3</span>
-            <input type="number" name="marks3" id="marks3">
+            <input type="number" name="marks3" id="marks3" autocomplete="off" required>
             <div class="line"></div>
             <button type="submit">SUBMIT</button>
             <a href="home.php">Home</a>
