@@ -23,7 +23,7 @@
         }
         $con->close();
     }
-?> 
+?>
 
 
 
@@ -39,10 +39,10 @@
 </head>
 
 <body>
-    <h1>data entry</h1>
-    <div class="line"></div>
 
-    <dev class="container">
+    <div class="container">
+        <h1>data entry</h1>
+        <div class="line"></div>
         <h2>enter the details</h2>
         <?php
         if($submitted===1)
@@ -51,7 +51,7 @@
 
 
         <form action="dataentry.php" method="post">
-            <span>Student registration number</span>
+            <span>Student reg. no.</span>
             <input type="number" name="regno" id="regno">
             <span>Student name</span>
             <input type="text" name="name" id="name">
@@ -61,10 +61,10 @@
             <input type="number" name="marks2" id="marks2">
             <span>Marks in subject 3</span>
             <input type="number" name="marks3" id="marks3">
-            <button type="submit">Submit</button>
+            <div class="line"></div>
+            <button type="submit">SUBMIT</button>
             <a href="home.php">Home</a>
         </form>
-    </dev>
-</body>
+    </div>
 
-</html>
+<?php include("footer.php");?>
