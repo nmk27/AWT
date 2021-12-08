@@ -9,3 +9,8 @@ Here we are supposed to make a website that will hold:
                                                     Collaition of php with mysql to store data.
 
 This project is under development as of 6-12-2021.
+
+
+
+<----8/12/2021---->
+As of today I have finished almost 70% of the project and will probably finish everything by tomorrow.
