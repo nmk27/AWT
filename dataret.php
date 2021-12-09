@@ -92,8 +92,8 @@ if (isset($_GET['regno'])) {
             <h2><?php echo $marks1 ? ($marks1 + $marks2 + $marks3) / 3 : ""; ?></h2>
         </div>
         <div class="link">
-            <?php echo $marks1 ? '<a href="#">Update</a>' : ""; ?>
             <a href="home.php">Home</a>
+            <?php echo $marks1 ? '<a href="#">Update</a>' : ""; ?>
         </div>
     </div>
 
