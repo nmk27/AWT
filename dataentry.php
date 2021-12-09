@@ -50,11 +50,11 @@
             <span>Student name</span>
             <input type="text" name="name" id="name" autocomplete="off" required>
             <span>Marks in subject 1</span>
-            <input type="number" name="marks1" id="marks1" autocomplete="off" required>
+            <input type="number" name="marks1" id="marks1" max="100" autocomplete="off" required>
             <span>Marks in subject 2</span>
-            <input type="number" name="marks2" id="marks2" autocomplete="off" required>
+            <input type="number" name="marks2" id="marks2" max="100" autocomplete="off" required>
             <span>Marks in subject 3</span>
-            <input type="number" name="marks3" id="marks3" autocomplete="off" required>
+            <input type="number" name="marks3" id="marks3" max="100" autocomplete="off" required>
             <div class="line"></div>
             <button type="submit">SUBMIT</button>
             <a href="home.php">Home</a>

@@ -1,5 +1,6 @@
 <?php
 require_once('config.php');
+session_start();
 
 $regno = 0;
 $name = "";
@@ -26,6 +27,11 @@ if (isset($_GET['regno'])) {
     } else {
         echo "Error : $sq1 <br> $con->error";
     }
+    $_SESSION['reg'] = $regno;
+    $_SESSION['name'] = $name;
+    $_SESSION['marks1'] = $marks1;
+    $_SESSION['marks2'] = $marks2;
+    $_SESSION['marks3'] = $marks3;
     $con->close();
 }
 ?>
@@ -93,7 +99,7 @@ if (isset($_GET['regno'])) {
         </div>
         <div class="link">
             <a href="home.php">Home</a>
-            <?php echo $marks1 ? '<a href="#">Update</a>' : ""; ?>
+            <?php echo $marks1 ? '<a href="update.php">Update</a>' : ""; ?>
         </div>
     </div>
 

@@ -131,3 +131,9 @@ form>a:hover{
     cursor: pointer;
     color:black;
 }
+
+form>.got{
+    color:#fff;
+    margin:0;
+    font-size: 20px;
+}
