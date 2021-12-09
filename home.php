@@ -1,4 +1,11 @@
 <!-- Normal HTML5 syntax -->
+<?php
+    if (session_status() != PHP_SESSION_NONE) {
+        session_destroy();
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +22,7 @@
 
         <div class="head">
             <h1>Welcome</h1>
-
             <div class="line"></div>
-
             <ul>
                 <li>niran raj pradhan</li>
                 <li>201900128</li>
@@ -46,8 +51,8 @@
             <a href="https://en.wikipedia.org/wiki/Concert" target="_blank">
                 <img src="images/sports3.jpg" alt="liveperf">
             </a>
-            <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki" target="_blank">
-                <img src="images/onepiece.jfif" alt="onepiece">
+            <a href="https://en.wikipedia.org/wiki/Volleyball" target="_blank">
+                <img src="images/vollyball.jpg" alt="vollyball">
             </a>
         </div>
 

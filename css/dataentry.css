@@ -13,6 +13,7 @@ body{
     background-image:url(http://bit.ly/2gPLxZ4);
     width: 100%;
     height: 100%;
+    margin:0;
     font-family: 'Nunito', Helvetica;
     letter-spacing: 0.02em;
     font-weight: 400;

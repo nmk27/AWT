@@ -17,9 +17,9 @@
         <h1>Login Here</h1>
         <form action="index.php">
             <p>Registration Number</p>
-            <input type="text" id="regno" required>
+            <input type="text" id="regno" required autocomplete="off">
             <p>Password</p>
-            <input type="password" id="password" required>
+            <input type="password" id="password" required autocomplete="off">
             <input type="submit" name="" value="Login" onclick="validate()">
         </form>
     </div>
