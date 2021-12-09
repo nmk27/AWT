@@ -6,7 +6,7 @@
     if(isset($_POST['regno'])){
         
         $name=$_POST['name'];
-        $regno=$_POST['name'];
+        $regno=$_POST['regno'];
         $marks1=$_POST['marks1'];
         $marks2=$_POST['marks2'];
         $marks3=$_POST['marks3'];
@@ -15,8 +15,8 @@
         
         if($con->query($sql)== true)
         {
-            $submitted=1;
-            echo "Submitted";
+            echo "<script>alert('Submitted');
+                        window.location.href='dataentry.php';</script>";
         }
         else{
             echo "Error : $sq1 <br> $con->error";
@@ -44,12 +44,6 @@
         <h1>data entry</h1>
         <div class="line"></div>
         <h2>enter the details</h2>
-        <?php
-        if($submitted===1)
-            echo "<span>your response has been submitted. thank you.</span>";
-        ?>
-
-
         <form action="dataentry.php" method="post">
             <span>Student reg. no.</span>
             <input type="number" name="regno" id="regno" autocomplete="off" required>
@@ -66,5 +60,4 @@
             <a href="home.php">Home</a>
         </form>
     </div>
-
 <?php include("footer.php");?>

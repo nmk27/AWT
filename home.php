@@ -30,7 +30,7 @@
 
         <div class="buttons">
             <a href="dataentry.php">data entry</a>
-            <a href="#">data retrieval</a>
+            <a href="dataret.php">data retrieval</a>
         </div>
 
         <div class="line"></div>
