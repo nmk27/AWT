@@ -91,7 +91,10 @@ if (isset($_GET['regno'])) {
             <h2>average</h2>
             <h2><?php echo $marks1 ? ($marks1 + $marks2 + $marks3) / 3 : ""; ?></h2>
         </div>
-        <a href="home.php">Home</a>
+        <div class="link">
+            <?php echo $marks1 ? '<a href="#">Update</a>' : ""; ?>
+            <a href="home.php">Home</a>
+        </div>
     </div>
 
     <?php include_once('footer.php') ?>
